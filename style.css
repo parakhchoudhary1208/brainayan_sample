@@ -11,27 +11,27 @@ html, body {
 
 @font-face {
     font-family: Gilroy;
-    src: url(Fonts/Gilroy-Regular.otf);
+    src: url(./fonts/Gilroy-Regular.otf);
 }
 
 @font-face {
     font-family: Gilroy Bold;
-    src: url(Fonts/Gilroy-Bold.otf);
+    src: url(./fonts/Gilroy-Bold.otf);
 }
 
 @font-face {
     font-family: Gilroy Semibold;
-    src: url(Fonts/Gilroy-Semibold.otf);
+    src: url(./fonts/Gilroy-Semibold.otf);
 }
 
 @font-face {
     font-family: Gilroy Medium;
-    src: url(Fonts/Gilroy-Medium.otf);
+    src: url(./fonts/Gilroy-Medium.otf);
 }
 
 @font-face {
     font-family: Gilroy Black;
-    src: url(Fonts/Gilroy-Black.otf);
+    src: url(./fonts/Gilroy-Black.otf);
 }
 
 a {
