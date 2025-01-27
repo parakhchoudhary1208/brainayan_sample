@@ -9,31 +9,6 @@ html, body {
     width: 100%;
 }
 
-@font-face {
-    font-family: Gilroy;
-    src: url(./fonts/Gilroy-Regular.otf);
-}
-
-@font-face {
-    font-family: Gilroy Bold;
-    src: url(./fonts/Gilroy-Bold.otf);
-}
-
-@font-face {
-    font-family: Gilroy Semibold;
-    src: url(./fonts/Gilroy-Semibold.otf);
-}
-
-@font-face {
-    font-family: Gilroy Medium;
-    src: url(./fonts/Gilroy-Medium.otf);
-}
-
-@font-face {
-    font-family: Gilroy Black;
-    src: url(./fonts/Gilroy-Black.otf);
-}
-
 a {
     text-decoration: none;
     color: #000;
@@ -70,8 +45,9 @@ img {
 }
 
 li {
-    font-family: Gilroy Semibold;
-    font-size: 18px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -79,11 +55,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Gilroy Semibold;
     outline: none;
     border: none;
     padding: 6px 16px;
+    font-family: Montserrat;
     font-size: 16px;
+    font-weight: 700;
     border-radius: 6px;
     color: rgb(0, 51, 51);
     background-color: rgb(175, 201, 56);
@@ -108,9 +85,10 @@ button {
     align-items: start;
 }
 
-.hero-content-ques p {
+.hero-content-ques h1 {
     font-size: 56px;
-    font-family: Gilroy Bold;
+    font-family: Montserrat;
+    font-weight: 700;
     line-height: 110%;
     color: #fff;
 }
@@ -120,13 +98,16 @@ button {
 }
 
 .hero-content-ans h1 {
+    font-family: Montserrat;
+    font-weight: 700;
     font-size: 56px;
-    font-family: Gilroy Bold;
+    letter-spacing: 1px;
 }
 
 .hero-content-ans p {
+    font-family: Montserrat;
+    font-weight: 600;
     font-size: 32px;
-    font-family: Gilroy Semibold;
 }
 
 .hero-img {
@@ -154,7 +135,8 @@ button {
 .cat-section h2 {
     color: rgb(0, 51, 51);
     font-size: 56px;
-    font-family: Gilroy Bold;
+    font-family: Montserrat;
+    font-weight: 700;
 }
 
 .cat-img {
@@ -179,7 +161,7 @@ button {
 .course-section h3 {
     color: rgb(0, 51, 51);
     font-size: 36px;
-    font-family: Gilroy Semibold;
+    font-family: Inter;
     margin-bottom: 48px;
 }
 
@@ -194,13 +176,13 @@ button {
 .course-card h4 {
     color: rgb(0, 51, 51);
     margin-bottom: 16px;
-    font-family: Gilroy Semibold;
+    font-family: Inter;
     font-size: 24px;
 }
 
 .course-card p {
     color: rgb(0, 51, 51);
-    font-family: Gilroy Medium;
+    font-family: Inter;
     font-size: 18px;
 }
 
@@ -218,12 +200,14 @@ button {
     color: #fff;
     font-size: 34px;
     line-height: 150%;
-    font-family: Gilroy;
+    font-family: Montserrat;
+    font-weight: 300;
 }
 
 .content-section p span {
     color: rgb(175, 201, 56);
-    font-family: Gilroy Semibold;
+    font-family: Montserrat;
+    font-weight: 600;
 }
 
 .time-section {
@@ -241,7 +225,8 @@ button {
 
 .time-content h4 {
     color: rgb(175, 201, 56);
-    font-family: Gilroy Semibold;
+    font-weight: 600;
+    font-family: Montserrat;
     font-size: 36px;
     margin-bottom: 56px;
 }
@@ -255,12 +240,19 @@ button {
 }
 
 .time-list {
+    font-family: Inter;
     display: flex;
     gap: 8px;
+    letter-spacing: 0px;
 }
 
 .time-list p:nth-child(1) {
-    font-size: 36px;
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.time-list p:nth-child(2) {
+    font-size: 20px;
 }
 
 .time-list i {
@@ -285,8 +277,8 @@ button {
 }
 
 .except-section h4 {
-    font-size: 36px;
-    font-family: Gilroy Bold;
+    font-size: 32px;
+    font-family: Montserrat;
     margin-bottom: 48px;
 }
 
@@ -300,9 +292,10 @@ button {
 
 .except-list {
     width: 100%;
-    font-family: Gilroy Bold;
+    font-family: Inter;
     color: rgba(0, 51, 51, 0.732);
     font-size: 24px;
+    letter-spacing: 0;
 }
 
 .except-list::after {
@@ -349,7 +342,8 @@ button {
 .conclusion-content p{
     color: #fff;
     font-size: 36px;
-    font-family: Gilroy Bold;
+    font-family: Montserrat;
+    font-weight: 600;
 }
 
 .conclusion-img {
@@ -372,8 +366,9 @@ button {
 
 .footer-content h5 {
     color: rgb(175, 201, 56);
-    font-size: 48px;
-    font-family: Gilroy Bold;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
     margin-bottom: 48px;
 }
 
@@ -384,7 +379,8 @@ button {
 .footer-content p {
     color: #000;
     font-size: 28px;
-    font-family: Gilroy Bold;
+    font-family: Montserrat;
+    font-weight: 600;
 }
 
 .contact-us {
@@ -394,7 +390,8 @@ button {
 }
 
 .contact-us p {
-    color: #777777ac;
-    font-family: Gilroy Bold;
+    color: #000;
+    font-weight: 700;
+    font-family: Montserrat;
     font-size: 48px;
 }
