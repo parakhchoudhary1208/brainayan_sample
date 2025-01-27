@@ -211,6 +211,8 @@ button {
 }
 
 .time-section {
+    max-width: 1440px;
+    margin: auto;
     padding: 64px 32px;
     height: fit-content;
     display: flex;
