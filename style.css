@@ -332,11 +332,6 @@ button {
     color: rgb(175, 201, 56);
 }
 
-.conclusion-content p:nth-child(3){
-    margin-top: -48px;
-    margin-left: -10px;
-}
-
 .conclusion-content p{
     color: #fff;
     font-size: 36px;
