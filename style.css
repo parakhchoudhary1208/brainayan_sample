@@ -44,11 +44,13 @@ img {
     max-width: auto;
 }
 
-li {
+li a {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
+    color: rgb(0, 51, 51);
+    mix-blend-mode: darken;
 }
 
 button {
@@ -299,19 +301,12 @@ button {
     color: rgba(0, 51, 51, 0.732);
     font-size: 24px;
     letter-spacing: 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 51, 51, 0.732);
 }
 
-.except-list::after {
-    display: inline-block;
-    content: "";
-    height: 1px;
-    margin-top: 12px;
-    width: 100%;
-    background-color: rgb(0, 51, 51, 0.732);
-}
-
-.except-list:nth-child(4)::after {
-    display: none;
+.except-list:nth-child(4) {
+    border: none;
 }
 
 .conclusion-section {
@@ -388,7 +383,7 @@ button {
 
 .contact-us {
     border-top: 1px solid #777777d0;
-    padding: 84px;
+    padding: 108px;
     text-align: center;
 }
 
@@ -397,4 +392,25 @@ button {
     font-weight: 700;
     font-family: Montserrat;
     font-size: 48px;
+}
+
+.cursor {
+    position: fixed;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(175, 201, 56);
+    pointer-events: none;
+    border-radius: 50%;
+    transition: transform 0.1s ease;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+.reveal {
+    overflow: hidden;
+    position: relative;
+}
+
+.line {
+    position: relative;
 }
