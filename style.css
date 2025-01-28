@@ -265,6 +265,7 @@ button {
 .time-img {
     width: 30%;
     height: fit-content;
+    margin: auto;
     overflow: hidden;
 }
 
