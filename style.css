@@ -162,7 +162,7 @@ button {
 
 .course-section h3 {
     color: rgb(0, 51, 51);
-    font-size: 36px;
+    font-size: 48px;
     font-family: Inter;
     margin-bottom: 48px;
 }
@@ -401,9 +401,14 @@ button {
     mix-blend-mode: difference;
 }
 
-.reveal {
+.reveal, .reveal-hero, .nav-reveal, ul {
     overflow: hidden;
     position: relative;
+}
+
+.reveal-hero, .nav-reveal {
+    visibility: hidden;
+    /* Hide elements initially */
 }
 
 .line {

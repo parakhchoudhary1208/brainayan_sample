@@ -15,6 +15,32 @@ const mouseMoveHandler = (e) => {
 };
 window.addEventListener("mousemove", mouseMoveHandler);
 
+
+
+const splitTypesHero = document.querySelectorAll('.reveal-hero');
+splitTypesHero.forEach((char, i) => {
+    const textHeor = new SplitType(char, { types: 'lines' });
+    textHeor.lines.forEach((line) => {
+        gsap.fromTo(
+            line, 
+            {
+                opacity: 0,
+                top: 100,
+                ease: "power1.in",
+            },
+            {
+                top: 0,
+                opacity: 1,
+                duration: 1,
+                ease: "power1.out",
+                onStart: function() {
+                    char.style.visibility = 'visible';
+                }
+            }
+        );
+    });
+});
+
 const splitTypes = document.querySelectorAll('.reveal');
 splitTypes.forEach((char, i) => {
     const text = new SplitType(char, { types: 'lines' });
