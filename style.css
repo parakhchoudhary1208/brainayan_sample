@@ -401,12 +401,12 @@ button {
     mix-blend-mode: difference;
 }
 
-.reveal, .reveal-hero, .nav-reveal, ul {
+.reveal, .reveal-hero {
     overflow: hidden;
     position: relative;
 }
 
-.reveal-hero, .nav-reveal {
+.reveal-hero {
     visibility: hidden;
     /* Hide elements initially */
 }
